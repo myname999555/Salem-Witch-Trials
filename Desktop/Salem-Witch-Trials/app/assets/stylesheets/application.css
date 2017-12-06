@@ -13,3 +13,25 @@
  *= require_tree .
  *= require_self
  */
+
+body {
+  background-color: MistyRose;
+
+}
+
+.navbar-default {
+  background-color: Aquamarine;
+  border-width: thin;
+  border-color: Coral;
+}
+
+.jumbotron {
+  background-color: PeachPuff;
+  padding-left: 120px;
+  border-width: 10px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-right: 350px;
+  margin-left: 100px;
+
+}
