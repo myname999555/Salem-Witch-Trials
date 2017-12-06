@@ -6,8 +6,16 @@ Rails.application.routes.draw do
 
   get('/accused', {:controller => 'people', :action => 'index'})
 
+  get('/accuser', {:controller => 'people', :action => 'list'})
+
   get('/religion', {:controller => 'culture', :action => 'index'})
 
+  get('/life', {:controller => 'culture', :action => 'show'})
+
   get('/government', {:controller => 'politics', :action => 'show'})
+
+  get('/wars', {:controller => 'politics', :action => 'index'})
+
+  get('/upcoming', {:controller => 'upcoming', :action => 'index'})
 
 end
