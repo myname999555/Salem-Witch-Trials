@@ -37,3 +37,14 @@ body {
   margin-left: 100px;
 
 }
+
+.spacing {
+  margin-left: 80px;
+  margin-top: 40px;
+}
+
+.navbar-brand {
+  margin-bottom: 25px;
+  margin-left: 20px;
+  margin-right: 105px;
+}
